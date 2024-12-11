@@ -17,6 +17,7 @@ export default {
         "Slate-300": "#D1D1DF",
         "Cyan-hover": "#71C0D4",
         "Purple-hover": "#B18BDD",
+        "whitesmoke":"rgb(245,245,245)",
       },
       screens: {
         sm: "375px",

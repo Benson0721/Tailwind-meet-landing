@@ -5,18 +5,18 @@ const ContextField = () => {
   const { header, content, button1, button2, version } = FirstData;
 
   return (
-    <section className="content-field_one flex flex-col justify-center items-center text-center">
-      <h1 className="text-1 text-Slate-900 ">{header}</h1>
-      <p className="text-4  text-Slate-600 my-6">{content}</p>
+    <section className="content content--type1 flex flex-col justify-center items-center text-center">
+      <h1 className="content__header1 text-Slate-900 ">{header}</h1>
+      <p className="content__paragraph  text-Slate-600 my-6">{content}</p>
       <div
-        className="flex flex-col sm:flex-col md:flex-row justify-center items-center"
-        aria-label="button"
+        className="flex flex-col sm:flex-col md:flex-row justify-center items-center mt-4"
+        aria-label="button-area"
       >
-        <button className="d-button bg-Cyan-600 hover:bg-Cyan-hover text-5 text-white mt-6">
+        <button className="content__button content__button--lg bg-Cyan-600 hover:bg-Cyan-hover">
           {button1}
           <span className="text-Cyan-300">{version}</span>
         </button>
-        <button className="w-button bg-Purple-600 hover:bg-Purple-hover text-5 text-white md:mt-6">
+        <button className="content__button content__button--sm bg-Purple-600 hover:bg-Purple-hover mt-4 md:mt-0 md:ml-4">
           {button2}
         </button>
       </div>
@@ -62,11 +62,11 @@ export default function ResponsiveBox() {
         </>
       ) : (
         <>
-          <figure className="hero flex flex-col justify-center items-center w-full my-12 md:my-18">
+          <figure className="flex flex-col justify-center items-center w-full my-12 md:my-18">
             <img
               src="./tablet/image-hero.png"
               alt="hero_image"
-              className="hero-image"
+              className="hero"
             />
           </figure>
           <ContextField />

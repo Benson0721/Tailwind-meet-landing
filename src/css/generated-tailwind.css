@@ -640,8 +640,28 @@ video {
   margin-top: 4rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .block {
@@ -778,6 +798,11 @@ video {
   background-color: rgb(133 95 177 / var(--tw-bg-opacity, 1));
 }
 
+.bg-whitesmoke {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -888,24 +913,14 @@ video {
   outline-style: solid;
 }
 
-.hover\:bg-Cyan-300:hover {
+.hover\:bg-Cyan-hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(143 227 249 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-Purple-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 184 255 / var(--tw-bg-opacity, 1));
+  background-color: rgb(113 192 212 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-Purple-hover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(177 139 221 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-Cyan-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(113 192 212 / var(--tw-bg-opacity, 1));
 }
 
 @media (min-width: 375px) {
@@ -915,8 +930,16 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mt-6 {
-    margin-top: 1.5rem;
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:grid-cols-4 {
@@ -933,6 +956,10 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }

@@ -30,7 +30,9 @@ dist-ssr
 deploy.sh
 design
 .vscode
-./src/scss
+
+/src/scss/*.scss
+/src/css/*.css.map
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

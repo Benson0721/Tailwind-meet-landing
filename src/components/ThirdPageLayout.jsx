@@ -6,10 +6,10 @@ const ContextField = () => {
 
   return (
     <section className="background flex flex-col justify-center items-center px-8 py-16 z-0">
-      <div className="content-field_three flex flex-col lg:flex-row justify-center items-center text-left">
-        <h2 className="text-2 text-white mb-6 ">{header}</h2>
-        <p className="text-4 text-white mb-6 ">{content}</p>
-        <button className="d-button bg-Purple-600 hover:bg-Purple-hover text-5 text-white mt-6 ">
+      <div className="content content--type3 flex flex-col lg:flex-row justify-center items-center text-left">
+        <h2 className="content__header2 text-white mb-6  lg:mb-0">{header}</h2>
+        <p className="content__paragraph text-white mb-6 lg:mb-0">{content}</p>
+        <button className="content__button content__button--lg bg-Purple-600 hover:bg-Purple-hover">
           {button}
           <span className="text-Purple-300">{version}</span>
         </button>
