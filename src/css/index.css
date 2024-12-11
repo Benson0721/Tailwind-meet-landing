@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 html,
 body,
 div,
@@ -92,28 +89,69 @@ video {
 html {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  background-color: whitesmoke;
 }
 html .text-1 {
-  font-size: 64px;
-  line-height: 1.1;
-  font-weight: 900;
-}
-html .text-2 {
   font-size: 40px;
   line-height: 1.1;
   font-weight: 900;
 }
+html .text-2 {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+}
 html .text-3 {
+  font-size: 12px;
   line-height: 1.1;
   font-weight: 900;
   letter-spacing: 4px;
 }
 html .text-4 {
-  font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.5;
   font-weight: 500;
 }
 html .text-5 {
   line-height: 1.5;
   font-weight: 900;
+}
+html .d-button {
+  padding: 16px 40px;
+  border-radius: 29px;
+  width: 193px;
+  height: 56px;
+  margin: 0px 16px 16px;
+}
+html .w-button {
+  padding: 16px 40px;
+  border-radius: 29px;
+  width: 161px;
+  height: 56px;
+  margin: 0px 16px 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  html .text-1 {
+    font-size: 48px;
+  }
+  html .text-2 {
+    font-size: 36px;
+  }
+  html .text-3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  html .text-1 {
+    font-size: 64px;
+  }
+  html .text-2 {
+    font-size: 40px;
+  }
+  html .text-3 {
+    font-size: 16px;
+  }
+  html .text-4 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=index.css.map */

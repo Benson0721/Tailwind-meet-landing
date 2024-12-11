@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite && npx tailwindcss -i ./src/css/index.css -o ./src/css/generated-index.css --watch",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "bulid:css": "postcss src/css/index.css --dir ./src/css && postcss src/css/GridSesctions.css --dir ./src/css && postcss src/css/Section.css --dir ./src/css ",
-    "tailwind:css": "npx tailwindcss -i ./src/css/index.css -o ./src/css/generated-index.css --watch",
+    "tailwind:css": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/generated-tailwind.css --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
