@@ -1,5 +1,3 @@
-import { version } from "react";
-
 const FirstData = {
   header: "Group Chat for Everyone",
   content:
