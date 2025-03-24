@@ -1,5 +1,5 @@
 import { ThirdData } from "../data";
-import "../css/ThirdPageLayout.css";
+import "../scss/ThirdPart.scss";
 
 const ContextField = () => {
   const { header, content, button, version } = ThirdData;
@@ -25,16 +25,6 @@ export default function ThirdPageLayout() {
         <img src="./mobile/number2.png" alt="number2" className="z-10" />
         <ContextField />
       </section>
-      <aside>
-        <p className="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-            Frontend Mentor
-          </a>
-          . Coded by
-          <a href="https://www.frontendmentor.io/profile/Benson0721">Mpass</a>.
-        </p>
-      </aside>
     </>
   );
 }

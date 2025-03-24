@@ -1,6 +1,6 @@
 import ResponsiveBox from "./ResponsiveBox";
-import "../css/FirstPageLayout.css";
-export default function FrontPageLayout() {
+import "../scss/FirstPart.scss";
+export default function FirstPart() {
   return (
     <section className="flex flex-col justify-center items-center pt-12">
       <svg width="118" height="28" xmlns="http://www.w3.org/2000/svg">

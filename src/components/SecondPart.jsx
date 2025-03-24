@@ -1,5 +1,5 @@
 import { SecondData } from "../data";
-import "../css/SecondPageLayout.css";
+import "../scss/SecondPart.scss";
 const GridImages = () => {
   return (
     <div className="photo-box grid grid-cols-2 my-16 md:grid-cols-4 gap-6 lg:gap-8">
@@ -30,8 +30,8 @@ const ContextField = () => {
 
   return (
     <section className="content content--type2 flex flex-col justify-center items-center text-center">
-      <h3 className="content__header3 text-Cyan-600 mb-4">{header2}</h3>
-      <h2 className="content__header2 text-Slate-900 mb-8">{header1}</h2>
+      <h2 className="content__header3 text-Cyan-600 mb-4">{header2}</h2>
+      <h3 className="content__header2 text-Slate-900 mb-8">{header1}</h3>
       <p className="content__paragraph text-Slate-600">{content}</p>
     </section>
   );
