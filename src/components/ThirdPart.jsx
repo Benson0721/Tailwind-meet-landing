@@ -1,5 +1,6 @@
 import { ThirdData } from "../data";
 import "../scss/ThirdPart.scss";
+import number2 from "../assets/images/number2.png";
 
 const ContextField = () => {
   const { header, content, button, version } = ThirdData;
@@ -18,11 +19,11 @@ const ContextField = () => {
   );
 };
 
-export default function ThirdPageLayout() {
+export default function ThirdPart() {
   return (
     <>
       <section className="flex flex-col  justify-center items-center">
-        <img src="./mobile/number2.png" alt="number2" className="z-10" />
+        <img src={number2} alt="number2" className="z-10" />
         <ContextField />
       </section>
     </>

@@ -1,13 +1,8 @@
-import FrontPageLayout from "./components/FrontPageLayout";
-import SecondPageLayout from "./components/SecondPageLayout";
-import ThirdPageLayout from "./components/ThirdPageLayout";
-
+import LandingPage from "./LandingPage";
 function App() {
   return (
     <>
-      <FrontPageLayout />
-      <SecondPageLayout />
-      <ThirdPageLayout />
+      <LandingPage />
     </>
   );
 }

@@ -1,5 +1,9 @@
 import { FirstData } from "../data";
 import { useEffect, useState } from "react";
+import DesktopHeroLeft from "../assets/images/desktop/image-hero-left.png";
+import DesktopHeroRight from "../assets/images/desktop/image-hero-right.png";
+import TabletHero from "../assets/images/tablet/image-hero.png";
+
 
 const ContextField = () => {
   const { header, content, button1, button2, version } = FirstData;
@@ -41,32 +45,32 @@ export default function ResponsiveBox() {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center pt-16 px-8 pb-8 w-full">
+    <div className="flex flex-col lg:flex-row items-center justify-center pt-16 px-8 pb-8 w-full relative">
       {desktop ? (
         <>
-          <figure className="w-full mr-24">
+          <figure className="hero hero--left">
             <img
-              src="./desktop/image-hero-left.png"
+              src={DesktopHeroLeft}
               alt="hero-left-image"
-              className="w-full h-full"
+              className="hero--image"
             />
           </figure>
           <ContextField />
-          <figure className="w-full ml-24">
+          <figure className="hero hero--right">
             <img
-              src="./desktop/image-hero-right.png"
+              src={DesktopHeroRight}
               alt="hero-right-image"
-              className="w-full h-full"
+              className="hero--image"
             />
           </figure>
         </>
       ) : (
         <>
-          <figure className="flex flex-col justify-center items-center w-full my-12 md:my-18">
+          <figure className="hero flex flex-col justify-center items-center w-full my-12 md:my-18">
             <img
-              src="./tablet/image-hero.png"
+              src={TabletHero}
               alt="hero_image"
-              className="hero"
+              className="hero--image"
             />
           </figure>
           <ContextField />
