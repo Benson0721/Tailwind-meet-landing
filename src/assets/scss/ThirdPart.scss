@@ -1,0 +1,33 @@
+.background {
+  width: 100%;
+  height: 100%;
+  max-height: 374px;
+  background: linear-gradient(rgba(77, 150, 169, 0.8), rgba(77, 150, 169, 0.8)),
+    url("../assets/images/mobile/image-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .background {
+    max-height: 320px;
+    background: linear-gradient(
+        rgba(77, 150, 169, 0.8),
+        rgba(77, 150, 169, 0.8)
+      ),
+      url("../assets/images/tablet/image-footer.jpg");
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .background {
+    max-width: 100vw;
+    height: 312px;
+    background: linear-gradient(
+        rgba(77, 150, 169, 0.8),
+        rgba(77, 150, 169, 0.8)
+      ),
+      url("../assets/images/desktop/image-footer.jpg");
+  }
+}

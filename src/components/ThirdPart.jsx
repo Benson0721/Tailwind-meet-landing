@@ -1,5 +1,5 @@
 import { ThirdData } from "../data";
-import "../scss/ThirdPart.scss";
+import "../assets/scss/ThirdPart.scss";
 import number2 from "../assets/images/number2.png";
 
 const ContextField = () => {

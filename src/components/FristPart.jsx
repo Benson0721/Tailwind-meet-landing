@@ -1,5 +1,5 @@
 import ResponsiveBox from "./ResponsiveBox";
-import "../scss/FirstPart.scss";
+import "../assets/scss/FirstPart.scss";
 export default function FirstPart() {
   return (
     <section className="flex flex-col justify-center items-center pt-12">

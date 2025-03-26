@@ -1,5 +1,5 @@
 import { SecondData } from "../data";
-import "../scss/SecondPart.scss";
+import "../assets/scss/SecondPart.scss";
 import DesktopVideoCall from "../assets/images/desktop/image-woman-in-videocall.jpg";
 import DesktopVideoChatting from "../assets/images/desktop/image-women-videochatting.jpg";
 import DesktopTexting from "../assets/images/desktop/image-man-texting.jpg";
