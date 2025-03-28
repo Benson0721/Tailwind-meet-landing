@@ -4,10 +4,10 @@ import ThirdPart from "./components/ThirdPart";
 
 export default function LandingPage() {
     return (
-        <div className="">
+    <>     
             <FirstPart />
             <SecondPart />
             <ThirdPart />
-        </div>
+    </>
     );
 }

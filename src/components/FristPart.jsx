@@ -2,7 +2,7 @@ import ResponsiveBox from "./ResponsiveBox";
 import "../assets/scss/FirstPart.scss";
 export default function FirstPart() {
   return (
-    <section className="flex flex-col justify-center items-center pt-12">
+    <section className="flex flex-col justify-center items-center pt-12 overflow-hidden">
       <svg width="118" height="28" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
           <g>
